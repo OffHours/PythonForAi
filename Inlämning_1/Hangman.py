@@ -82,7 +82,7 @@ if __name__ == '__main__':
             print(current_word) #For debugging
             
             guess = input('Guess a Letter: ').upper()
-            print(guess)
+            
             if guess == 'break':
                 break
                 
@@ -97,7 +97,7 @@ if __name__ == '__main__':
             correct_guesses = [None] * len(current_word)
             started = True
             
-        elif choice == 'stop':
+        elif choice == 'stop' or 'break':
             print('Thanks for playing!')
             break
         
