@@ -83,7 +83,7 @@ def word():
                          'RECURSION', 
                          'INTERFACE']
     
-    num = random.randrange(1, 20, 1)
+    num = random.randrange(0, 20, 1)
     
     # Create a temporary list to show length of word
     word_len = ['_'] * len(programming_words[num])
